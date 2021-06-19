@@ -10,7 +10,7 @@ provider "aws" {
   region = "us-east-1"
 }
 resource "aws_ecr_repository" "foo" {
-  name                 = "/tarun/akshay_repo"
+  name                 = "tarunsquad_akshay_repo"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
