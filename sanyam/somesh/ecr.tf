@@ -1,5 +1,5 @@
 resource "aws_ecr_repository" "foo" {
-  name                 = "somesh-devops-km-19-june"
+  name                 = "somesh-devops-km"
   image_tag_mutability = "MUTABLE"
 
   image_scanning_configuration {
